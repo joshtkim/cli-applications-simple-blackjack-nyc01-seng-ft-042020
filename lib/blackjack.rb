@@ -42,7 +42,7 @@ def hit?(num)
   prompt_user
   user_input = get_user_input
   if user_input != 'h' && user_input != 's'
-    puts "Please enter a valid command"
+    invalid_command
     prompt_user
     user_input = get_user_input
   end
