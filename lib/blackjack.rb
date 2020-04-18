@@ -1,4 +1,4 @@
-require require_relative
+
 
 def welcome
   # code #welcome here
@@ -22,20 +22,14 @@ end
 
 def get_user_input
   # code #get_user_input here
-  method= gets.chomp
 end
 
 def end_game
   # code #end_game here
-  if n>21
-    puts "Sorry, you hit #{n}. Thanks for playing!"
 end
 
 def initial_round
   # code #initial_round here
-  sum = deal_card + deal_card
-  display_card_total(sum)
-  return sum
 end
 
 def hit?
